@@ -62,18 +62,20 @@ nav a {
 /* Header style */
 .header {
   background: #fff8f3;
-  background-image: url("../Images/header_bg.png");
-  background-position: bottom right;
+  background-image: url("../Images/header_bg.png"), url("../Images/developer.png");
+  background-position: bottom right, top left;
   background-repeat: no-repeat;
 }
 .banner {
-  padding: 30px 30px 0px 150px;
+  padding: 30px 30px 50px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.banner .profile-pic {
+.profile-pic {
   width: 500px;
+  position: relative;
+  top: 50px;
 }
 .banner-greeting {
   font-size: 45px;
